@@ -36,12 +36,17 @@ export default {
 </script>
 
 <style>
+@font-face{
+  font-family:  Google-san;
+  src: url('~@/assets/font/GoogleSans-Regular.otf');
+}
 body{
   margin: 0px;
   padding: 0px;
+  font-family: Google-san;
 }
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+ 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
